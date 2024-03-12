@@ -73,6 +73,7 @@ def home_page():
 
 
 # Placeholder for steel plate defect project
+@st.cache
 def project1_steel_plate_defect():
     st.header("Project 1: Steel Plate Defect Detection")
     st.write("This section will demonstrate the analysis and prediction model for steel plate defect detection."
@@ -80,8 +81,10 @@ def project1_steel_plate_defect():
     st.write("Massaron, Luca. \"Steel Plate EDA & XGBoost is All You Need.\" Kaggle. "
              "https://www.kaggle.com/code/lucamassaron/steel-plate-eda-xgboost-is-all-you-need."
              )
-    train = pd.read_csv("C:/Kaggle/playground/playground-series-s4e3/train.csv", index_col="id")
-    test = pd.read_csv("C:/Kaggle/playground/playground-series-s4e3/test.csv", index_col="id")
+    url1 = 'https://github.com/winterraven7/Streamlit-website-trial/blob/main/train.csv'
+    url2 = 'https://github.com/winterraven7/Streamlit-website-trial/blob/main/test.csv'
+    train = pd.read_csv(url1)
+    test = pd.read_csv(url2)
 
     st.subheader("**Load Data**")
 
