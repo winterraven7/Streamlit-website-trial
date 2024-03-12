@@ -24,7 +24,7 @@ def select_project(project_name):
     st.session_state.selected_project = project_name
 
 
-st.sidebar.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/logo.jpg", use_column_width=True)
+st.sidebar.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/logo.jpg?raw=true", use_column_width=True)
 st.sidebar.button("Homepage", on_click=select_project, args=("Homepage",))
 st.sidebar.title("Projects")
 # Create buttons for each project, binding them to the same function but with different arguments
@@ -73,7 +73,6 @@ def home_page():
 
 
 # Placeholder for steel plate defect project
-@st.cache
 def project1_steel_plate_defect():
     st.header("Project 1: Steel Plate Defect Detection")
     st.write("This section will demonstrate the analysis and prediction model for steel plate defect detection."
