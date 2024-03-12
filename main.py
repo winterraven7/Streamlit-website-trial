@@ -210,8 +210,8 @@ def project1_steel_plate_defect():
     """
     st.code(code, language='python')
 
-    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/x-range.jpg", use_column_width=True)
-    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/y-range.jpg", use_column_width=True)
+    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/x-range.jpg?raw=true", use_column_width=True)
+    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/y-range.jpg?raw=true", use_column_width=True)
 
 
 def project2_prediction_uni_admission():
