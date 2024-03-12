@@ -24,7 +24,7 @@ def select_project(project_name):
     st.session_state.selected_project = project_name
 
 
-st.sidebar.image("/AMS/interactive-web-trial/logo.jpg", use_column_width=True)
+st.sidebar.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/logo.jpg", use_column_width=True)
 st.sidebar.button("Homepage", on_click=select_project, args=("Homepage",))
 st.sidebar.title("Projects")
 # Create buttons for each project, binding them to the same function but with different arguments
@@ -211,8 +211,8 @@ def project1_steel_plate_defect():
     """
     st.code(code, language='python')
 
-    st.image("x-range.jpg", use_column_width=True)
-    st.image("y-range.jpg", use_column_width=True)
+    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/x-range.jpg", use_column_width=True)
+    st.image("https://github.com/winterraven7/Streamlit-website-trial/blob/main/y-range.jpg", use_column_width=True)
 
 
 def project2_prediction_uni_admission():
