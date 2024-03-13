@@ -82,8 +82,8 @@ def project1_steel_plate_defect():
              )
     url1 = 'https://raw.githubusercontent.com/winterraven7/Streamlit-website-trial/main/train.csv'
     url2 = 'https://raw.githubusercontent.com/winterraven7/Streamlit-website-trial/main/test.csv'
-    train = pd.read_csv(url1, delimiter=',')
-    test = pd.read_csv(url2, delimiter=',')
+    train = pd.read_csv(url1)
+    test = pd.read_csv(url2)
 
     st.subheader("**Load Data**")
 
