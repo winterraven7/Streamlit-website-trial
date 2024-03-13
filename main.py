@@ -80,8 +80,8 @@ def project1_steel_plate_defect():
     st.write("Massaron, Luca. \"Steel Plate EDA & XGBoost is All You Need.\" Kaggle. "
              "https://www.kaggle.com/code/lucamassaron/steel-plate-eda-xgboost-is-all-you-need."
              )
-    url1 = 'https://github.com/winterraven7/Streamlit-website-trial/blob/main/train.csv'
-    url2 = 'https://github.com/winterraven7/Streamlit-website-trial/blob/main/test.csv'
+    url1 = 'https://raw.githubusercontent.com/winterraven7/Streamlit-website-trial/main/train.csv'
+    url2 = 'https://raw.githubusercontent.com/winterraven7/Streamlit-website-trial/main/test.csv'
     train = pd.read_csv(url1, delimiter=',')
     test = pd.read_csv(url2, delimiter=',')
 
